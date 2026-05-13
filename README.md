@@ -13,9 +13,9 @@
     <td align="center"><b>Canvas — Full View</b></td>
   </tr>
   <tr>
-    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.45.51 AM.png" width="220"/></td>
-    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.46.01 AM.png" width="220"/></td>
-    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.46.12 AM.png" width="220"/></td>
+    <td><img src="Screenshot/canvas-1.png" width="220"/></td>
+    <td><img src="Screenshot/canvas-2.png" width="220"/></td>
+    <td><img src="Screenshot/canvas-3.png" width="220"/></td>
   </tr>
   <tr>
     <td align="center"><b>Journey Detail & Tasks</b></td>
@@ -23,8 +23,8 @@
     <td></td>
   </tr>
   <tr>
-    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.45.40 AM.png" width="220"/></td>
-    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.45.31 AM.png" width="220"/></td>
+    <td><img src="Screenshot/journey-detail.png" width="220"/></td>
+    <td><img src="Screenshot/add-journey.png" width="220"/></td>
     <td></td>
   </tr>
 </table>
