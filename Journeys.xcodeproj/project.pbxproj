@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAAA0000000000000000AA40 /* JourneysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA30 /* JourneysApp.swift */; };
+		AAAA0000000000000000AA41 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA31 /* Journey.swift */; };
+		AAAA0000000000000000AA42 /* JourneyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA32 /* JourneyStore.swift */; };
+		AAAA0000000000000000AA43 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA33 /* ShakeEffect.swift */; };
+		AAAA0000000000000000AA44 /* BackgroundStarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA34 /* BackgroundStarsView.swift */; };
+		AAAA0000000000000000AA45 /* ProgressOrbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA35 /* ProgressOrbView.swift */; };
+		AAAA0000000000000000AA46 /* StarfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA36 /* StarfieldView.swift */; };
+		AAAA0000000000000000AA47 /* TimelineThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA37 /* TimelineThreadView.swift */; };
+		AAAA0000000000000000AA48 /* AddJourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA38 /* AddJourneyView.swift */; };
+		AAAA0000000000000000AA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA39 /* Assets.xcassets */; };
+		AAAA0000000000000000AA4A /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA3A /* HapticFeedback.swift */; };
+		AAAA0000000000000000AA80 /* GestureHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA81 /* GestureHintView.swift */; };
+		AAAA0000000000000000AA82 /* EditJourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA83 /* EditJourneyView.swift */; };
+		AAAA0000000000000000AA84 /* AddOrbButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA85 /* AddOrbButton.swift */; };
+		AAAA0000000000000000AA86 /* JourneyPeekCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0000000000000000AA87 /* JourneyPeekCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAAA0000000000000000AA11 /* Journeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAA0000000000000000AA30 /* JourneysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneysApp.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA31 /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA32 /* JourneyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyStore.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA33 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA34 /* BackgroundStarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundStarsView.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA35 /* ProgressOrbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressOrbView.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA36 /* StarfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarfieldView.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA37 /* TimelineThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineThreadView.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA38 /* AddJourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJourneyView.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAAA0000000000000000AA3A /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA70 /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = project.yml; sourceTree = "<group>"; };
+		AAAA0000000000000000AA71 /* Journeys.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Journeys.xcodeproj; sourceTree = "<group>"; };
+		AAAA0000000000000000AA81 /* GestureHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureHintView.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA83 /* EditJourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJourneyView.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA85 /* AddOrbButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrbButton.swift; sourceTree = "<group>"; };
+		AAAA0000000000000000AA87 /* JourneyPeekCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyPeekCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAAA0000000000000000AA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAAA0000000000000000AA02 = {
+			isa = PBXGroup;
+			children = (
+				AAAA0000000000000000AA50 /* Journeys */,
+				AAAA0000000000000000AA72 /* Config */,
+				AAAA0000000000000000AA03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAAA0000000000000000AA03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA0000000000000000AA11 /* Journeys.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAAA0000000000000000AA50 /* Journeys */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA0000000000000000AA30 /* JourneysApp.swift */,
+				AAAA0000000000000000AA51 /* Models */,
+				AAAA0000000000000000AA52 /* Views */,
+				AAAA0000000000000000AA53 /* Effects */,
+				AAAA0000000000000000AA39 /* Assets.xcassets */,
+			);
+			name = Journeys;
+			sourceTree = "<group>";
+		};
+		AAAA0000000000000000AA51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA0000000000000000AA31 /* Journey.swift */,
+				AAAA0000000000000000AA32 /* JourneyStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAAA0000000000000000AA52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA0000000000000000AA34 /* BackgroundStarsView.swift */,
+				AAAA0000000000000000AA35 /* ProgressOrbView.swift */,
+				AAAA0000000000000000AA36 /* StarfieldView.swift */,
+				AAAA0000000000000000AA37 /* TimelineThreadView.swift */,
+				AAAA0000000000000000AA38 /* AddJourneyView.swift */,
+				AAAA0000000000000000AA81 /* GestureHintView.swift */,
+				AAAA0000000000000000AA83 /* EditJourneyView.swift */,
+				AAAA0000000000000000AA85 /* AddOrbButton.swift */,
+				AAAA0000000000000000AA87 /* JourneyPeekCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAAA0000000000000000AA53 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA0000000000000000AA33 /* ShakeEffect.swift */,
+				AAAA0000000000000000AA3A /* HapticFeedback.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		AAAA0000000000000000AA72 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA0000000000000000AA70 /* project.yml */,
+				AAAA0000000000000000AA71 /* Journeys.xcodeproj */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		AD670F172FA19FF500F17106 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAAA0000000000000000AA10 /* Journeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAA0000000000000000AA65 /* Build configuration list for PBXNativeTarget "Journeys" */;
+			buildPhases = (
+				AAAA0000000000000000AA20 /* Sources */,
+				AAAA0000000000000000AA21 /* Resources */,
+				AAAA0000000000000000AA22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Journeys;
+			productName = Journeys;
+			productReference = AAAA0000000000000000AA11 /* Journeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAAA0000000000000000AA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					AAAA0000000000000000AA10 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AAAA0000000000000000AA64 /* Build configuration list for PBXProject "Journeys" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAAA0000000000000000AA02;
+			productRefGroup = AAAA0000000000000000AA03 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AD670F172FA19FF500F17106 /* Products */;
+					ProjectRef = AAAA0000000000000000AA71 /* Journeys.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AAAA0000000000000000AA10 /* Journeys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAAA0000000000000000AA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAA0000000000000000AA49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAAA0000000000000000AA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAA0000000000000000AA40 /* JourneysApp.swift in Sources */,
+				AAAA0000000000000000AA41 /* Journey.swift in Sources */,
+				AAAA0000000000000000AA42 /* JourneyStore.swift in Sources */,
+				AAAA0000000000000000AA43 /* ShakeEffect.swift in Sources */,
+				AAAA0000000000000000AA4A /* HapticFeedback.swift in Sources */,
+				AAAA0000000000000000AA44 /* BackgroundStarsView.swift in Sources */,
+				AAAA0000000000000000AA45 /* ProgressOrbView.swift in Sources */,
+				AAAA0000000000000000AA46 /* StarfieldView.swift in Sources */,
+				AAAA0000000000000000AA47 /* TimelineThreadView.swift in Sources */,
+				AAAA0000000000000000AA48 /* AddJourneyView.swift in Sources */,
+				AAAA0000000000000000AA80 /* GestureHintView.swift in Sources */,
+				AAAA0000000000000000AA82 /* EditJourneyView.swift in Sources */,
+				AAAA0000000000000000AA84 /* AddOrbButton.swift in Sources */,
+				AAAA0000000000000000AA86 /* JourneyPeekCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAAA0000000000000000AA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__DUPLICATE_METHOD_NAMES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HFNNH3FWNZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAAA0000000000000000AA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__DUPLICATE_METHOD_NAMES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HFNNH3FWNZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAAA0000000000000000AA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Journeys;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.journeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AAAA0000000000000000AA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Journeys;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.journeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAAA0000000000000000AA64 /* Build configuration list for PBXProject "Journeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAA0000000000000000AA60 /* Debug */,
+				AAAA0000000000000000AA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAA0000000000000000AA65 /* Build configuration list for PBXNativeTarget "Journeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAA0000000000000000AA62 /* Debug */,
+				AAAA0000000000000000AA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAAA0000000000000000AA01 /* Project object */;
+}
