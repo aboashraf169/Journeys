@@ -95,13 +95,28 @@ xcodegen generate --spec Journeys/Config/project.yml
 
 ## Screenshots
 
-> Coming soon.
-
-<!--
-![Main Screen](screenshots/main.png)
-![Journey Detail](screenshots/timeline.png)
-![Add Journey](screenshots/add.png)
--->
+<table>
+  <tr>
+    <td align="center"><b>Canvas — Your Universe</b></td>
+    <td align="center"><b>Canvas — More Journeys</b></td>
+    <td align="center"><b>Canvas — Full View</b></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.45.51 AM.png" width="220"/></td>
+    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.46.01 AM.png" width="220"/></td>
+    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.46.12 AM.png" width="220"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Journey Detail & Tasks</b></td>
+    <td align="center"><b>Add New Journey</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.45.40 AM.png" width="220"/></td>
+    <td><img src="Screenshot/Screenshot 2026-05-14 at 12.45.31 AM.png" width="220"/></td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
