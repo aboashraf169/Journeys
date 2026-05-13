@@ -31,7 +31,7 @@
 
 ---
 
-## For Everyone
+## About
 
 Imagine every goal you set turning into a glowing planet in a space that belongs only to you.
 
@@ -50,7 +50,7 @@ Because staying consistent is hard, and overcomplicated apps make it harder. Eve
 
 ---
 
-## For Developers
+## Technical Details
 
 ### Overview
 
